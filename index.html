@@ -12,7 +12,7 @@
 		<section class="product large-product">
 			<section class="add-panel">
 				<input type="text" class="add text" placeholder="Назва товару">
-				<button class="add button">Додати</button>
+				<button class="add button" data-tooltip="Додати новий продукт">Додати</button>
 			</section>
 			<hr>
 			<section class="add-panel-one">
@@ -25,7 +25,7 @@
 				</section>
 			</section>
 			<section class="panel-bought">
-				<button class="bought">
+				<button class="bought" data-tooltip="Купити">
 					Не куплено
 				</button>
 			</section>
@@ -36,17 +36,17 @@
 				<p>Печиво</p>
 			</section>
 				<section class="number">
-				<button class="minus-amount">-</button>
+				<button class="minus-amount" data-tooltip="Відняти">-</button>
 				<section class="amount-main-panel">
 					2
 				</section>
-				<button class="add-amount">+</button>
+				<button class="add-amount" data-tooltip="Додати">+</button>
 				</section>
 				<section class="panel-bought">
-				<button class="bought">
+				<button class="bought" data-tooltip="Купити">
 					Куплено
 				</button>
-				<button class="cancel">
+				<button class="cancel" data-tooltip="Відмінити">
 					×
 				</button>
 				</section>
@@ -61,13 +61,13 @@
 				<section class="amount-main-panel">
 					1
 				</section>
-				<button class="add-amount">+</button>
+				<button class="add-amount" data-tooltip="Додати">+</button>
 				</section>
 			<section class="panel-bought">
-				<button class="bought">
+				<button class="bought" data-tooltip="Купити">
 					Куплено
 				</button>
-				<button class="cancel">
+				<button class="cancel" data-tooltip="Відмінити">
 					×
 				</button>
 			</section>
@@ -75,7 +75,7 @@
 		</section>
 		<article class="product small-product">
 		<article class="add-panel-small">
-			<h3>Залишилося</h3>
+			<p class="text-small-panel">Залишилося</p>
 		</article>
 		<hr>
 		<article class="add-panel-small">
@@ -90,7 +90,7 @@
 		</article>
 		<hr>
 		<article class="add-panel-small">
-			<h3>Куплено</h3>
+			<p class="text-small-panel">Куплено</p>
 		</article>
 		<hr>
 		<article class="add-panel-small">
