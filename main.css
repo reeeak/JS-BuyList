@@ -25,6 +25,7 @@
 @media (max-width: 640px) {
     .panel {
         display: block;
+        min-width: 510px;
     }
 
     .large-product,
